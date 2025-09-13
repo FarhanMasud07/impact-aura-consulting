@@ -20,8 +20,8 @@ const Hero = () => {
           >
             <div className="space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 leading-tight">
-                Data With
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-500"> Human Pulse</span>
+                Transform Your
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-500"> Digital Future</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed max-w-2xl">
                 ImpactAura Consulting delivers cutting-edge research and digital solutions that drive meaningful business transformation. From strategic consulting to custom software development.
