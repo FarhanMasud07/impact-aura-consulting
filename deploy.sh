@@ -1,3 +1,6 @@
+#chmod +x deploy.sh
+
+
 #!/bin/bash
 set -e
 
