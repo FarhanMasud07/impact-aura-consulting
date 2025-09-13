@@ -7,15 +7,15 @@ const Services = () => {
   const services = [
     {
       icon: Search,
-      title: 'Digital Research',
+      title: 'Applied Research & Evaluation',
       description: 'Comprehensive market analysis and digital trend research to inform strategic decisions.',
-      features: ['Market Analysis', 'Competitor Research', 'Trend Forecasting']
+      features: ['Baseline, Midline, Final Evaluations', 'Mixed Methods & Participatory Research', 'Developmental Evaluation (DE) for adaplative learnin']
     },
     {
       icon: Code,
-      title: 'Web Development',
+      title: 'Data, Analytics & Digital Innovation',
       description: 'Custom websites and web applications built with modern technologies and best practices.',
-      features: ['Responsive Design', 'Performance Optimization', 'SEO Ready']
+      features: ['SPSS, NVivo, STATA based analysis', 'Machine Learning & Python for predictive modeling', 'Web Design for NGOs, SMEs & Development Campaigns']
     },
     {
       icon: Smartphone,
@@ -37,10 +37,10 @@ const Services = () => {
     },
     {
       icon: Shield,
-      title: 'Digital Security',
-      description: 'Comprehensive security audits and implementation of robust protection measures.',
-      features: ['Security Audits', 'Risk Assessment', 'Compliance Support']
-    }
+      title: 'Developmental Evaluation (DE)',
+      description: 'Expert guidance on digital transformation and business strategy optimization.',
+      features: ['SPSS, NVivo, STATA based analysis', 'Machine Learning & Python for predictive modeling', 'Power BI & Tableau Dashoards']
+    },
   ];
 
   return (

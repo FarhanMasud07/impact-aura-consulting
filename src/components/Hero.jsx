@@ -20,11 +20,11 @@ const Hero = () => {
           >
             <div className="space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 leading-tight">
-                Transform Your
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-500"> Digital Future</span>
+                Data With A 
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-500"> Human Pulse</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed max-w-2xl">
-                ImpactAura Consulting delivers cutting-edge research and digital solutions that drive meaningful business transformation. From strategic consulting to custom software development.
+                Impact Aura Research & Consulting Ltd. is a capacity building, research, and digital innovation consulting firm dedicated to delivering strategic inputs that reflect both statistical truth and adaptive evaluation in developmental and humanitarian sectors.
               </p>
             </div>
 
@@ -83,7 +83,7 @@ const Hero = () => {
               <div className="absolute -top-4 -left-4 bg-white rounded-lg shadow-lg p-4 border border-slate-200">
                 <div className="flex items-center space-x-2">
                   <Zap className="h-5 w-5 text-emerald-500" aria-hidden="true" />
-                  <span className="text-sm font-medium text-zinc-900">Fast Delivery</span>
+                  <span className="text-sm font-medium text-zinc-900">Fast Research</span>
                 </div>
               </div>
               
