@@ -36,3 +36,5 @@ git checkout main
 git pull origin main
 echo "✅ Switched back to main branch."
 
+echo "Starting npm install"
+npm install
