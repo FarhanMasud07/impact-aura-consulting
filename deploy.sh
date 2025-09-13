@@ -33,3 +33,5 @@ echo "✅ Deployment complete!"
 
 echo "Switching to main branch..."
 git checkout main
+git pull origin main
+echo "✅ Switched back to main branch."
