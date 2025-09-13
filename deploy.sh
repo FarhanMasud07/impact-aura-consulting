@@ -12,7 +12,7 @@ npm run build
 cd "$(dirname "$0")"
 
 echo "Switching to productionready branch..."
-git checkout productionready
+git checkout productionready || git checkout -b productionready
 
 # Delete old files except dist and .git
 find . -maxdepth 1 ! -name "." ! -name "dist" ! -name ".git" -exec rm -rf {} +
@@ -35,3 +35,4 @@ echo "Switching to main branch..."
 git checkout main
 git pull origin main
 echo "✅ Switched back to main branch."
+
