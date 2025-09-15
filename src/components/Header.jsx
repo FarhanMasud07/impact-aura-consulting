@@ -37,9 +37,9 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2 ${
+                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200  ${
                     isActive(item.href)
-                      ? 'text-green-700 bg-green-50'
+                      ? 'text-green-700 bg-green-50 ring-[1.2px] ring-green-700 ring-green-700 ring-offset-2'
                       : 'text-zinc-900 hover:text-green-700 hover:bg-slate-50'
                   }`}
                 >
