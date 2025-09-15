@@ -52,7 +52,10 @@ const Services = () => {
             Our Services
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Comprehensive digital solutions designed to accelerate your business growth and digital transformation journey.
+            To be a leading research and innovation hub that transforms evidence into
+            action—driving adaptive learning, inclusive development, and capacity building for
+            program quality standards, while fostering sustainable change for communities
+            worldwide.
           </p>
         </div>
 

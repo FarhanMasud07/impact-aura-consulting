@@ -24,7 +24,7 @@ const Hero = () => {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-500"> Human Pulse</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed max-w-2xl">
-                Impact Aura Research & Consulting Ltd. is a capacity building, research, and digital innovation consulting firm dedicated to delivering strategic inputs that reflect both statistical truth and adaptive evaluation in developmental and humanitarian sectors.
+                ImpactAura Research & Consulting Ltd. is a research and digital innovation firm that advances learning-driven evaluation and adaptive decision-making. We integrate double- and triple-loop learning to help organizations reflect on actions, assumptions, and systems, focusing on impact measurement, evidence-based strategies, and sustainable program improvement.
               </p>
             </div>
 

@@ -16,7 +16,7 @@ const Footer = () => {
               <span className="text-xl font-bold">ImpactAura</span>
             </div>
             <p className="text-slate-300 text-sm leading-relaxed">
-              Digital research and consulting firm specializing in innovative solutions for modern businesses.
+              Digital research and consulting firm driving evidence-based decisions and sustainable impact.
             </p>
           </div>
 
@@ -42,14 +42,14 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-emerald-500 flex-shrink-0" aria-hidden="true" />
-                <a href="mailto:info@impactaura.com" className="text-slate-300 hover:text-emerald-500 transition-colors duration-200 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-zinc-900 rounded">
-                  info@impactaura.com
+                <a href="mailto:info@impactauraconsulting.com" className="text-slate-300 hover:text-emerald-500 transition-colors duration-200 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-zinc-900 rounded">
+                  info@impactauraconsulting.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-emerald-500 flex-shrink-0" aria-hidden="true" />
-                <a href="tel:+8801627715573" className="text-slate-300 hover:text-emerald-500 transition-colors duration-200 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-zinc-900 rounded">
-                  +8801627715573
+                <a href="tel:+8801950102446" className="text-slate-300 hover:text-emerald-500 transition-colors duration-200 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-zinc-900 rounded">
+                  +8801950102446
                 </a>
               </div>
             </div>

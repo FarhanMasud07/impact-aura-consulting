@@ -7,6 +7,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { toast } from 'react-toastify';
+import Map from '../components/Map';
 
 const contactSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -47,25 +48,25 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email Us',
-      details: 'info@impactaura.com',
-      link: 'mailto:info@impactaura.com'
+      details: 'info@impactauraconsulting.com',
+      link: 'mailto:info@impactauraconsulting.com'
     },
     {
       icon: Phone,
       title: 'Call Us',
-      details: '+1 (234) 567-8900',
-      link: 'tel:+1234567890'
+      details: '+8801950102446',
+      link: 'tel:+8801950102446'
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      details: '123 Business District, Tech City, TC 12345',
-      link: '#'
+      details: `Aronnaloy Abason Society, Plot-4, Avenue 2, Block E-1, Chandrima Model Town`,
+      link: 'https://www.google.com/maps/place/MATRICHAYA/@23.755495,90.3346116,20z/data=!4m6!3m5!1s0x3755bfe4422007fd:0x93c7f51693220f7d!8m2!3d23.7556375!4d90.3345469!16s%2Fg%2F11l6lgkchw?hl=en&entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D'
     },
     {
       icon: Clock,
       title: 'Business Hours',
-      details: 'Mon - Fri: 9:00 AM - 6:00 PM',
+      details: 'Sun - Thu: 9:00 AM - 7:00 PM',
       link: '#'
     }
   ];
@@ -122,7 +123,7 @@ export default function Contact() {
                           {...register('name')}
                           type="text"
                           id="name"
-                          className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors duration-200"
+                          className="w-full px-4 py-3 border text-zinc-900 border-slate-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors duration-200"
                           placeholder="Your full name"
                         />
                         {errors.name && (
@@ -138,7 +139,7 @@ export default function Contact() {
                           {...register('email')}
                           type="email"
                           id="email"
-                          className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors duration-200"
+                          className="w-full px-4 py-3 border text-zinc-900 border-slate-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors duration-200"
                           placeholder="your@email.com"
                         />
                         {errors.email && (
@@ -155,7 +156,7 @@ export default function Contact() {
                         {...register('company')}
                         type="text"
                         id="company"
-                        className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors duration-200"
+                        className="w-full px-4 py-3 border text-zinc-900 border-slate-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors duration-200"
                         placeholder="Your company name"
                       />
                     </div>
@@ -168,7 +169,7 @@ export default function Contact() {
                         {...register('subject')}
                         type="text"
                         id="subject"
-                        className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors duration-200"
+                        className="w-full px-4 py-3 border text-zinc-900 border-slate-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors duration-200"
                         placeholder="What's this about?"
                       />
                       {errors.subject && (
@@ -184,7 +185,7 @@ export default function Contact() {
                         {...register('message')}
                         id="message"
                         rows={6}
-                        className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors duration-200 resize-none"
+                        className="w-full px-4 py-3 border text-zinc-900 border-slate-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-transparent transition-colors duration-200 resize-none"
                         placeholder="Tell us about your project or inquiry..."
                       />
                       {errors.message && (
@@ -256,15 +257,8 @@ export default function Contact() {
                     })}
                   </div>
 
-                  {/* Map placeholder */}
-                  <div className="mt-8">
-                    <div className="bg-slate-100 rounded-lg h-64 flex items-center justify-center">
-                      <div className="text-center space-y-2">
-                        <MapPin className="h-12 w-12 text-slate-400 mx-auto" aria-hidden="true" />
-                        <p className="text-slate-500">Interactive map coming soon</p>
-                      </div>
-                    </div>
-                  </div>
+                  {/* Map  */}
+                  <Map />
                 </div>
               </motion.div>
             </div>

@@ -52,8 +52,21 @@ export default function About() {
               <h1 className="text-4xl sm:text-5xl font-bold text-zinc-900">
                 About <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-500">ImpactAura</span>
               </h1>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                We are a forward-thinking digital research and consulting firm dedicated to helping businesses navigate the complexities of digital transformation.
+              <p className="text-xl text-slate-600 max-w-5xl mx-auto leading-relaxed text-left">
+                ImpactAura Research &amp; Consulting Ltd. is specialized research, and digital innovation
+                consulting firm advancing learning-driven evaluation and adaptive decision-making. By
+                integrating double- and triple-loop learning within developmental evaluation, we help
+                organizations reflect on actions, assumptions, and systems that shape change. We
+                emphasize impact measurement, evidence-based strategies, and process monitoring
+                to design sustainable pathways and strengthen program quality.
+                At national and international levels, we support partners in program design and
+                proposal writing, contextual analysis, Theory of Change and results framework
+                development, database systems, thematic research, and participatory methodologies.
+                Our expertise spans livelihood, health and nutrition, education, youth development,
+                emergency response and rehabilitation, peace and reconciliation, natural resource
+                management, resilience building, local governance, and food security—combining
+                statistical rigor with lived realities to drive inclusive, sustainable, and transformative
+                outcomes.
               </p>
             </motion.div>
           </div>
@@ -76,7 +89,9 @@ export default function About() {
                     <h2 className="text-3xl font-bold text-zinc-900">Our Mission</h2>
                   </div>
                   <p className="text-lg text-slate-600 leading-relaxed">
-                    To empower businesses with innovative digital solutions and strategic insights that drive sustainable growth and competitive advantage in an ever-evolving digital landscape.
+                  Advancing research, learning, and adaptation—ImpactAura empowers partners with
+                  evidence-based evaluation and program design, fostering continuous learning and
+                  context-driven solutions for sustainable change.                  
                   </p>
                 </div>
 
@@ -86,7 +101,10 @@ export default function About() {
                     <h2 className="text-3xl font-bold text-zinc-900">Our Vision</h2>
                   </div>
                   <p className="text-lg text-slate-600 leading-relaxed">
-                    To be the leading global partner for digital transformation, recognized for our expertise, innovation, and commitment to delivering exceptional value to our clients worldwide.
+                    To be a leading research and innovation hub that transforms evidence into
+                    action—driving adaptive learning, inclusive development, and capacity building for
+                    program quality standards, while fostering sustainable change for communities
+                    worldwide.
                   </p>
                 </div>
               </motion.div>
@@ -186,7 +204,7 @@ export default function About() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl sm:text-4xl font-bold text-white">
-                Ready to Start Your Digital Journey?
+                Ready to Start Your Journey?
               </h2>
               <p className="text-xl text-green-100 max-w-2xl mx-auto">
                 Let's work together to transform your business with innovative digital solutions.
