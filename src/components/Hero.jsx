@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Zap, Globe, Users } from 'lucide-react';
+import { ArrowRight, Zap, Globe } from 'lucide-react';
 import { motion } from 'framer-motion';
+import marketing from '../assets/marketing.jpg'; 
 
 const Hero = () => {
   return (
@@ -71,7 +72,7 @@ const Hero = () => {
           >
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                src={marketing}
                 alt="Modern office workspace with laptops and digital tools"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
                 loading="lazy"
