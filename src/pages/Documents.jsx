@@ -67,18 +67,43 @@ export default function Documents() {
               {documents.map((doc) => (
                 <div
                   key={doc.id}
-                  className="bg-white border border-slate-200 rounded-lg p-6 hover:shadow-lg cursor-pointer transition-shadow"
+                  className={`border rounded-lg p-6 cursor-pointer transition-shadow ${
+                    selectedPdf === doc.file
+                      ? 'bg-green-50 border-green-600 shadow-md'
+                      : 'bg-white border-slate-200 hover:shadow-lg'
+                  }`}
                   onClick={() => setSelectedPdf(doc.file)}
                 >
                   <div className="flex items-center space-x-4">
-                    <FileText className="h-8 w-8 text-green-700" />
+                    <FileText
+                      className={`h-8 w-8 ${
+                        selectedPdf === doc.file ? 'text-green-700' : 'text-slate-400'
+                      }`}
+                    />
                     <div className="flex-1">
-                      <h3 className="text-lg font-semibold text-zinc-900">{doc.title}</h3>
-                      <p className="text-slate-600">{doc.description}</p>
+                      <h3
+                        className={`text-lg font-semibold ${
+                          selectedPdf === doc.file ? 'text-green-700' : 'text-zinc-900'
+                        }`}
+                      >
+                        {doc.title}
+                      </h3>
+                      <p
+                        className={`${
+                          selectedPdf === doc.file ? 'text-green-600' : 'text-slate-600'
+                        }`}
+                      >
+                        {doc.description}
+                      </p>
                     </div>
-                    <Eye className="h-6 w-6 text-slate-400" />
+                    <Eye
+                      className={`h-6 w-6 ${
+                        selectedPdf === doc.file ? 'text-green-600' : 'text-slate-400'
+                      }`}
+                    />
                   </div>
                 </div>
+
               ))}
             </div>
           </motion.div>
