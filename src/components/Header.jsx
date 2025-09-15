@@ -23,7 +23,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2 rounded-md">
-              <img src={logo} alt="ImpactAura Logo" className='h-16 w-auto object-contain'/>
+              <img src={logo} alt="ImpactAura Logo" className='lg:h-20 h-16 w-auto object-contain'/>
             </Link>
           </div>
 

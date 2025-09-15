@@ -30,7 +30,7 @@ const Services = () => {
       ]
     },
     {
-      icon: Search,
+      icon: BarChart3,
       title: 'Monitoring, Evaluation, Accountability & Learning (MEAL)',
       description: 'We provide end-to-end MEAL support—framework design, TPM, accountability systems, capacity building, and learning processes—strengthening evidence-based programming, real-time decision-making, and organizational accountability.',
       features: [
@@ -74,7 +74,7 @@ const Services = () => {
       ]
     },
     {
-      icon: BarChart3,
+      icon: Lightbulb,
       title: 'Strategic Consulting',
       description: 'We provide strategic consulting that strengthens institutions, informs policy reform, and guides program design—helping organizations adapt, mobilize resources, and achieve sustainable impact in complex development and humanitarian contexts.',
       features: [
@@ -125,11 +125,8 @@ const Services = () => {
           <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900">
             Our Services
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            To be a leading research and innovation hub that transforms evidence into
-            action—driving adaptive learning, inclusive development, and capacity building for
-            program quality standards, while fostering sustainable change for communities
-            worldwide.
+          <p className="text-xl text-slate-600 max-w-3xl mx-auto text-left">
+             ImpactAura Research & Consulting Ltd. delivers integrated solutions in research, evaluation, data analytics, and strategic consulting. Our services span developmental evaluation, MEAL systems, digital innovation, and knowledge management—empowering organizations with evidence, innovation, and adaptive strategies to enhance accountability, strengthen impact, and build resilience in complex development and humanitarian contexts.  
           </p>
         </div>
 

@@ -6,7 +6,7 @@ import marketing from '../assets/marketing.jpg';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-green-50 via-white to-emerald-50 py-10 lg:py-20 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-green-50 via-white to-emerald-50 py-10 lg:py-16 overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10" aria-hidden="true"></div>
       
@@ -20,9 +20,9 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="space-y-6">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 leading-tight">
-                Data With A 
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-500"> Human Pulse</span>
+              <h1 className="text-4xl sm:text-4xl lg:text-4xl font-bold text-zinc-900 leading-tight">
+                “Insight. 
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-500"> Innovation. Impact"</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed max-w-2xl">
                 ImpactAura Research & Consulting Ltd. is a research and digital innovation firm that advances learning-driven evaluation and adaptive decision-making. We integrate double- and triple-loop learning to help organizations reflect on actions, assumptions, and systems, focusing on impact measurement, evidence-based strategies, and sustainable program improvement.
