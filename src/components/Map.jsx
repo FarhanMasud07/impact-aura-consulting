@@ -4,7 +4,10 @@ const Map = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center space-y-4 mb-8">
               <h2 className="text-3xl font-bold text-zinc-900">Our Location</h2>
-              <p className="text-slate-600">MATRICHAYA, Dhaka, Bangladesh</p>
+              <p className="text-slate-600">Aronnaloy Abason Society, Plot-4, Avenue 2
+                Block E-1, Chandrima Model Town
+                Mohammadpur, Dhaka, Bangladesh
+              </p>
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg">
               <iframe
