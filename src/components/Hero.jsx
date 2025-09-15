@@ -21,8 +21,8 @@ const Hero = () => {
           >
             <div className="space-y-6">
               <h1 className="text-4xl sm:text-4xl lg:text-4xl font-bold text-zinc-900 leading-tight">
-                “Insight. 
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-500"> Innovation. Impact"</span>
+                Who 
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-500"> We Are?</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed max-w-2xl">
                 ImpactAura Research & Consulting Ltd. is a research and digital innovation firm that advances learning-driven evaluation and adaptive decision-making. We integrate double- and triple-loop learning to help organizations reflect on actions, assumptions, and systems, focusing on impact measurement, evidence-based strategies, and sustainable program improvement.
@@ -83,15 +83,15 @@ const Hero = () => {
               {/* Floating cards */}
               <div className="absolute -top-4 -left-4 bg-white rounded-lg shadow-lg p-4 border border-slate-200">
                 <div className="flex items-center space-x-2">
-                  <Zap className="h-5 w-5 text-emerald-500" aria-hidden="true" />
-                  <span className="text-sm font-medium text-zinc-900">Fast Research</span>
+                  <Globe className="h-5 w-5 text-green-700" aria-hidden="true" />
+                  <span className="text-[12px] font-medium text-zinc-900">Insight Innovation Impact</span>
                 </div>
               </div>
               
               <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-4 border border-slate-200">
                 <div className="flex items-center space-x-2">
-                  <Globe className="h-5 w-5 text-green-700" aria-hidden="true" />
-                  <span className="text-sm font-medium text-zinc-900">Global Reach</span>
+                  <Zap className="h-5 w-5 text-emerald-500" aria-hidden="true" />
+                  <span className="text-[12px] font-medium text-zinc-900">Fast Research & Global Reach</span>
                 </div>
               </div>
             </div>
