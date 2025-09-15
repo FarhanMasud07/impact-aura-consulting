@@ -19,11 +19,14 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm border-b border-slate-200">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-[5rem] lg:h-[6rem]">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2 rounded-md">
+            <Link to="/" className="flex items-center space-x-2  flex-col relative -top-[10px]">
               <img src={logo} alt="ImpactAura Logo" className='lg:h-20 h-16 w-auto object-contain'/>
+              <small className="text-black font-medium absolute -bottom-[5px] text-[10px] right-[23px]">
+                <i>"Insight. Innovation. Impact"</i>  
+              </small>
             </Link>
           </div>
 

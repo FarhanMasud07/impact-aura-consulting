@@ -83,15 +83,15 @@ const Hero = () => {
               {/* Floating cards */}
               <div className="absolute -top-4 -left-4 bg-white rounded-lg shadow-lg p-4 border border-slate-200">
                 <div className="flex items-center space-x-2">
-                  <Globe className="h-5 w-5 text-green-700" aria-hidden="true" />
-                  <span className="text-[12px] font-medium text-zinc-900">Insight Innovation Impact</span>
+                  <Zap className="h-5 w-5 text-emerald-500" aria-hidden="true" />
+                  <span className="text-sm font-medium text-zinc-900">Fast Research</span>
                 </div>
               </div>
               
               <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-4 border border-slate-200">
                 <div className="flex items-center space-x-2">
-                  <Zap className="h-5 w-5 text-emerald-500" aria-hidden="true" />
-                  <span className="text-[12px] font-medium text-zinc-900">Fast Research & Global Reach</span>
+                  <Globe className="h-5 w-5 text-green-700" aria-hidden="true" />
+                  <span className="text-sm font-medium text-zinc-900">Global Reach</span>
                 </div>
               </div>
             </div>
