@@ -23,7 +23,7 @@ find . -maxdepth 1 ! -name "." ! -name "dist" ! -name ".git" -exec rm -rf {} +
 # Move only index.html and assets to root
 mv dist/index.html .
 mv dist/assets .
-cp public/.htaccess .
+mv dist/.htaccess .
 # Remove now-empty dist folder
 rm -rf dist
 
