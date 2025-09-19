@@ -52,7 +52,7 @@ export default function Documents() {
     if (isMobile) {
       setScale(0.46); 
     } else {
-      setScale(1.2); 
+      setScale(.8); 
       setFullscreen(false);
     }
   }, [isMobile]);
