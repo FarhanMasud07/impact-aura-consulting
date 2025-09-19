@@ -50,7 +50,7 @@ export default function Documents() {
   // If on mobile, adjust scale and fullscreen automatically
   useEffect(() => {
     if (isMobile) {
-      setScale(0.8); 
+      setScale(0.46); 
     } else {
       setScale(1.2); 
       setFullscreen(false);
